@@ -1,0 +1,175 @@
+.hero.browse {
+    background-image: linear-gradient(rgba(167, 232, 189, 0.75) rgba(167, 232, 189, 0.75)),
+    url(../images/recipe-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .recipe {
+        font-family: lato-regular;
+    }
+
+    .recipe-container {
+        width: 80%;
+        margin: 200px 0px;
+
+        .try-recipes {
+            font-family: caveat-bold;
+            font-size: 25px;
+            margin-bottom: 52px;
+        }
+
+        .recipe.list {
+            width: 100%;
+            min-height: 576px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            // gap: 50px;
+
+            .recipe.entry {
+                width: 524px;
+                height: 263px;
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+                margin-bottom: 50px;
+
+                .recipe.card {
+                    display: flex;
+
+                    .recipe.photo {
+                        width: 300px;
+                        height: 263px;
+                        border-radius: 24px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .recipe.info {
+                        width: 224px;
+                        height: 263px;
+                        border-radius: 24px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        text-align: center;
+                        font-family: lato-regular;
+                        background-color: white;
+
+                        .recipe.name {
+                            height: 30px;
+                            border-bottom: solid 3px black;
+
+                            h2 {
+                                font-size: 15px;
+                            }
+                        }
+
+                        .instructions {
+                            width: 169px;
+                            height: 88px;
+                            font-size: 10px;
+                        }
+
+                        .time-serve {
+                            width: 87px;
+                            height: 63px;
+                            display: flex;
+                            flex-direction: column;
+                            gap: 17px;
+
+                            .detail-wrapper {
+                                display: flex;
+                                gap: 17px;
+
+                                .icon {
+                                    width: 24px;
+                                    height: 24px;
+                                }
+
+                                .amount {
+                                    font-size: 10px;
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+
+        .button-container {
+            width: 270px;
+            height: 42px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+
+        .button {
+            width: 127px;
+            text-align: center;
+            border-radius: 26px;
+            font-family: caveat-regular;
+            font-size: 19px;
+            background-color: #FFD972;
+        }
+
+        .view {
+            display: none;
+        }
+
+        .photo:hover .view {
+            display: block;
+        }
+
+        #pizza {
+            background-image: url(../images/recipe-pizza_300x263.jpeg);
+        }
+
+        #burger {
+            background-image: url(../images/recipe-burger_300x263.jpeg);
+        }
+
+        #biryani {
+            background-image: url(../images/recipe-pilaf_300x263.jpeg);
+        }
+
+        #chow-mein {
+            background-image: url(../images/recipe-chowmein_300x263.jpeg);
+        }
+
+        #black-bean {
+            background-image: url(../images/blackbean_300x263.jpeg);
+        }
+
+        #breakfast {
+            background-image: url(../images/breakfast_300x263.jpeg);
+        }
+
+        #pad-thai {
+            background-image: url(../images/pad-thai_300x263.jpeg);
+        }
+
+        #salmon {
+            background-image: url(../images/salmon-pasta_300x263.jpeg);
+        }
+
+        #steak {
+            background-image: url(../images/steak-pasta_300x263.jpeg);
+        }
+
+        #stuffed-peppers {
+            background-image: url(../images/stuffed-peppers_300x263.jpeg);
+        }
+    }
+}

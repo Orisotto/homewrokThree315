@@ -1,0 +1,8 @@
+.container.video {
+  width: 1000px;
+  height: 500px;
+  background-color: black;
+}
+.container.video .video-holder {
+  margin: 0 auto;
+}

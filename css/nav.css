@@ -1,0 +1,21 @@
+.nav-holder {
+  width: 90%;
+  height: 95px;
+  position: fixed;
+  background-color: cadetblue;
+}
+.nav-holder .burger .bar {
+  width: 25px;
+  height: 3px;
+  margin: 5px 0px;
+  border-radius: 20px;
+  display: block;
+  background-color: #000000;
+}
+.nav-holder .links {
+  font-family: caveat-regular;
+  font-size: 25px;
+}
+.nav-holder .links a {
+  text-decoration: none;
+}
